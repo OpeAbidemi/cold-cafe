@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form>
+      <p>Select Gender</p>
+      <input type="radio" value="male" name="gender" /> Male
+      <input type="radio" value="female" name="gender" /> Female
+      <input type="radio" value="other" /> Other
+
+      <p>Select your favorite colors</p>
+      <input type="checkbox" name="red" id="red" /> RED
+      <input type="checkbox" name="blue" id="blue" /> BLUE
+      <input type="checkbox" name="green" id="green" /> GREEN
+
+      <textarea
+        placeholder="Write Something"
+        rows="4"
+        maxlength="10"
+      ></textarea>
+
+      <input type="text" placeholder="Enter name" required /><br />
+      <input
+        type="email"
+        placeholder="Enter email address"
+        required
+        readonly
+        value="james@bond.com"
+      /><br />
+      <input type="password" placeholder="Password" minlength="6" /><br />
+      <input type="number" placeholder="Age" /><br />
+      <label for="color">Pick a color</label>
+      <input type="color" name="color" /><br />
+      <input type="date" /><br />
+      <label for="dob">Enter date of birth</label>
+      <input type="datetime-local" name="dob" /><br />
+      <label for="randomDigits">Pick a random number (0-10)</label>
+      <input type="range" min="0" max="20" name="randomDigits" /><br />
+      <label for="profileImage">Upload Profile Image</label>
+      <input type="file" accept="image/*" multiple name="profileImage" /><br />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
