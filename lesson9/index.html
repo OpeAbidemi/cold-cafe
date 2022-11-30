@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS</title>
+    <style>
+      /* universal selector */
+      /* * {
+        font-style: italic;
+      } */
+
+      /* Selecting by element name */
+      /* h1 {
+        color: red;
+      } */
+
+      /* Selecting by id */
+      /* #world {
+        color: green;
+      } */
+
+      /* Selecting by classname */
+      /* .text {
+        background-color: darkblue;
+      } */
+
+      /* Selecting by classname */
+      /* .large-text {
+        font-size: 40px;
+      } */
+
+      .box {
+        background-color: crimson;
+      }
+
+      /* Select p that are descendants */
+      .box p {
+        color: orange;
+      }
+
+      /* Select p with class blue-text */
+      p.blue-text {
+        color: blue;
+      }
+
+      /* Select p thar are direct children */
+      div > p {
+        color: tomato;
+      }
+
+      /* Selects p that are siblings */
+      div ~ p {
+        font-size: 40px;
+      }
+
+      /* Select p that is next sibling  */
+      div + p {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1 id="world">Hello World</h1>
+    <h1>Hello James</h1>
+    <h1 class="text">Hello Jane</h1> -->
+
+    <!-- <p class="text large-text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ad
+      cupiditate expedita nisi non amet voluptates exercitationem repellat
+      reprehenderit incidunt porro molestiae tempora, consectetur ipsa eaque
+      earum aspernatur facere. Nihil?
+    </p> -->
+
+    <h1 class="blue-text">Hello Gbenga</h1>
+
+    <div class="box">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ad
+        cupiditate expedita nisi non amet voluptates exercitationem repellat
+        reprehenderit incidunt porro molestiae tempora, consectetur ipsa eaque
+        earum aspernatur facere. Nihil?
+      </p>
+    </div>
+
+    <p class="blue-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+      sed! Sed molestias ipsa ducimus veniam corporis! Magnam quam quis,
+      perspiciatis necessitatibus a quia repellendus voluptate similique
+      repellat officia, quos corrupti?
+    </p>
+  </body>
+</html>
